@@ -19,18 +19,16 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 100px;
-  
-  /* выше установили ограничения для секции */
 }
 
 .header__title {
-color: black;
-font-size: 102px;
-font-weight: bold;
-width: 730px;
-line-height: 96px;
-margin: 0 0 0 64px;
-z-index: 2;
+  color: black;
+  font-size: 102px;
+  font-weight: bold;
+  width: 730px;
+  line-height: 96px;
+  margin: 0 0 0 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -44,28 +42,28 @@ z-index: 2;
   bottom: 30px;
   margin: 0;
   z-index: 2;
-  }
+}
 
-  .header__link {
-    color: #2f80ed;
-    text-decoration: none;
-    }
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 
-    .header__link:hover {
-      color: #2f80ed;
-    }
+.header__link:hover {
+  color: #2f80ed;
+}
 
-  .logo {
-    width: 183px;
-    }
+.logo {
+  width: 183px;
+}
 
-  .logo_place_header {
-    height: 32px;
-    position: absolute;
-    left: 64px;
-    top: 30px;
-    z-index: 2;
-    }
+.logo_place_header {
+  height: 32px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+  z-index: 2;
+}
 
 .header__square-pic {
   height: 568px;
@@ -87,11 +85,11 @@ z-index: 2;
 }
 
 .two-columns {
-width: 80%;
-margin: 100px auto;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .two-columns__brief {
@@ -118,7 +116,7 @@ justify-content: space-between;
   font-size: 24px;
 }
 
-.two-columns__paragraph:last-of-type{
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
@@ -161,17 +159,17 @@ justify-content: space-between;
 }
 
 .table {
-    width: 1100px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  width: 1100px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .table_theme_light {
@@ -179,16 +177,15 @@ justify-content: space-between;
 }
 
 .table__cell_theme_light {
-    width: 250px;
-    margin-top: 60px;
-  
+  width: 250px;
+  margin-top: 60px;
 }
 
 .table__heading {
-    line-height: 1.15;
-    font-weight: bold;
-    margin: 0;
-    font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0;
+  font-size: 24px;
 }
 
 .table__heading_theme_light {
@@ -196,10 +193,10 @@ justify-content: space-between;
 }
 
 .table__text {
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: normal;
-    margin: 20px 0 0 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 20px 0 0 0;
 }
 
 .table__text_theme_light {
@@ -216,16 +213,16 @@ justify-content: space-between;
 
 .feynman__title {
   width: 648px;
-   margin-top: 100px;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 70px;
-   color: #000;
-   line-height: 1.15;
-   font-size: 120px;
-   text-align: center;
-   font-weight: bold;
-   z-index: 1;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  color: #000;
+  line-height: 1.15;
+  font-size: 120px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 1;
 }
 
 .feynman__subtitle {
@@ -271,20 +268,20 @@ justify-content: space-between;
 }
 
 .section-title_theme_dark {
-color: #fff;
-margin-top: 90px;
+  color: #fff;
+  margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
-  }
+}
 
 .table_theme_dark {
-    margin-bottom: 90px;
-    z-index: 1;
- }
+  margin-bottom: 90px;
+  z-index: 1;
+}
   
- .table__cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
 }
@@ -306,7 +303,6 @@ margin-top: 90px;
   top:0;
   right: -210px;
   z-index: 0;
-
 }
 
 .footer {
@@ -333,10 +329,10 @@ margin-top: 90px;
   flex-direction: column;
   flex-wrap: nowrap; 
 }
-.footer__column_content_copyright {
- flex-basis: 711px ;
-  justify-content: space-between;
 
+.footer__column_content_copyright {
+  flex-basis: 711px ;
+  justify-content: space-between;
 }
 
 .footer__author { 
@@ -387,12 +383,3 @@ margin-top: 90px;
 .footer__column-link:hover {
   color: #f2f2f2;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-/*.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-*/
