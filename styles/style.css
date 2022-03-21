@@ -270,10 +270,12 @@
 .section-title_theme_dark {
   color: #fff;
   margin-top: 90px;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: #fff;
+  z-index: 1;
 }
 
 .table_theme_dark {
