@@ -12,4 +12,8 @@
   
   .feynman__link:hover {
     color: #2f80ed;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    opacity: 0.5;
   }
