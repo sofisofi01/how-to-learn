@@ -6,8 +6,3 @@
     flex-direction: row;
     justify-content: space-between;
   }
-
-  .two-columns:last-of-type {
-    padding: 160px 0 0 0;
-  }
-  
