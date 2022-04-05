@@ -6,4 +6,8 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .two-columns:nth-of-type(2) {
+    padding: 160px 0 0 0;
+  }
   
