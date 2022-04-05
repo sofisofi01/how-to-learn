@@ -7,7 +7,7 @@
     justify-content: space-between;
   }
 
-  .two-columns:nth-of-type(2) {
+  .two-columns:last-of-type {
     padding: 160px 0 0 0;
   }
   
